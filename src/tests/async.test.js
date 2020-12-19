@@ -64,7 +64,7 @@ test('the data is peanut butter', () => {
 
 */
 
-// Importante que DEVEMOS returnar a promise, pois se isso não acontecer, vai ser a mesma coisa com a callback, o teste vai ser concluido antes de executar a função fetchData
+// Importante que DEVEMOS retornar a promise, pois se isso não acontecer, vai ser a mesma coisa com a callback, o teste vai ser concluido antes de executar a função fetchData
 
 // Agora se você já espera que a promisse vai ser rejeitada, pode ser usado o método .catch. Tenha certeza de ter adicionado o expect.assertions para verificar que um certo número de afirmações foi chamado, com isso, a promisse não iria falhar no teste.
 
